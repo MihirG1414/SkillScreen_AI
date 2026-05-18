@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 15% 0%, rgba(37, 99, 235, 0.08), transparent 28rem),
+    linear-gradient(180deg, #ffffff 0%, #f8fafc 48%, #eef4fb 100%);
+  color: #111827;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+summary {
+  cursor: pointer;
+}
+
+@layer components {
+  .shell {
+    @apply mx-auto w-full max-w-6xl px-5 py-8 sm:px-8;
+  }
+
+  .card {
+    @apply rounded-lg border border-line bg-white/90 p-5 shadow-soft;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-md bg-accent px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-700 disabled:hover:bg-accent;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-md border border-line bg-white px-4 py-2.5 text-sm font-semibold text-ink transition hover:bg-slate-50;
+  }
+
+  .field {
+    @apply w-full rounded-md border border-line bg-white px-3 py-2.5 text-sm outline-none transition focus:border-accent focus:ring-2 focus:ring-blue-100;
+  }
+
+  .label {
+    @apply text-sm font-semibold text-slate-700;
+  }
+
+  .tag {
+    @apply inline-flex items-center rounded-full border border-blue-100 bg-blue-50 px-2.5 py-1 text-xs font-medium text-blue-800;
+  }
+
+  .muted {
+    @apply text-sm text-slate-600;
+  }
+}

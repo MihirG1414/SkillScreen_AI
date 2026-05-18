@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "filename": "backend_engineering_foundations.txt",
+      "role": "BACKEND_ENGINEER",
+      "tier": "core",
+      "display_name": "Backend Engineering Foundations"
+    },
+    {
+      "filename": "machine_learning_for_absolute_beginners.pdf",
+      "role": "AI_ML_ENGINEER",
+      "tier": "foundation",
+      "display_name": "Machine Learning for Absolute Beginners"
+    },
+    {
+      "filename": "tom_mitchell_machine_learning.pdf",
+      "role": "AI_ML_ENGINEER",
+      "tier": "core",
+      "display_name": "Machine Learning by Tom Mitchell"
+    },
+    {
+      "filename": "intrpduction_to_statistical_learning.pdf",
+      "role": "AI_ML_ENGINEER",
+      "tier": "core",
+      "display_name": "Introduction to Statistical Learning"
+    },
+    {
+      "filename": "introduction_to_ml_with_python.pdf",
+      "role": "DATA_SCIENCE_APPLIED_ML",
+      "tier": "applied",
+      "display_name": "Introduction to Machine Learning with Python"
+    },
+    {
+      "filename": "bishop_pattern_recognition_machine_learning.pdf",
+      "role": "AI_ML_ENGINEER",
+      "tier": "advanced",
+      "display_name": "Pattern Recognition and Machine Learning"
+    },
+    {
+      "filename": "ai_ml_deep_learning.pdf",
+      "role": "AI_ML_ENGINEER",
+      "tier": "advanced",
+      "display_name": "AI, Machine Learning, and Deep Learning"
+    },
+    {
+      "filename": "Probabilistic_Machine_Learning_An_Introduction_by_Kevin_Patrick_Murphy.pdf",
+      "role": "AI_ML_ENGINEER",
+      "tier": "advanced",
+      "display_name": "Probabilistic Machine Learning: An Introduction"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Backend engineering foundations for interview retrieval.
+
+Reliable backend systems validate incoming requests before doing work. They return clear,
+safe errors when required fields are missing, inputs are malformed, or uploaded files cannot
+be processed.
+
+Persistence design matters because interview systems need session continuity. A strong answer
+should explain how to store session state, generated questions, submitted answers, evaluations,
+and final reports so the workflow survives refreshes and restarts.
+
+Idempotency is important for ingestion and asynchronous tasks. If a job is retried, the system
+should avoid duplicating records or creating repeated chunks in the vector store.
+
+Source traceability improves trust. For RAG-backed features, the system should preserve the
+retrieval query, source filename, source tier, and page number so reviewers can understand why
+the application generated a question or evaluation.
+
+Good backend design also includes testing and observability. Engineers should mention input
+validation tests, failure-path tests, structured logs, and the ability to debug issues across
+API routes, service logic, storage, and retrieval layers.
