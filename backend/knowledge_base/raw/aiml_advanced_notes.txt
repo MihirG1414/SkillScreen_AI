@@ -1,0 +1,35 @@
+AI/ML ADVANCED NOTES
+
+Advanced AI/ML interviews should still produce natural engineering questions. The goal is not to quote theory, but to connect deeper concepts to practical system design.
+
+Uncertainty and probabilistic reasoning:
+In high-stakes or noisy settings, model confidence matters. Candidates should understand the difference between a point prediction and a calibrated confidence estimate. Strong answers may discuss uncertainty-aware decision thresholds, fallback behavior, or human review loops.
+
+Model calibration:
+A model can be accurate while still being poorly calibrated. Good candidates should mention how to verify whether predicted probabilities reflect real-world likelihoods and when calibration matters for ranking or decision systems.
+
+Distribution shift:
+Models often degrade because real inputs differ from training conditions. Strong candidates should discuss data drift, concept drift, monitoring, retraining triggers, and how to detect when validation assumptions no longer hold.
+
+Tradeoffs in advanced system design:
+- accuracy versus interpretability
+- model capacity versus maintainability
+- training cost versus inference cost
+- robustness versus latency
+- uncertainty estimation versus system simplicity
+
+Probabilistic thinking in computer vision and sequential systems:
+For tracking, temporal smoothing, state estimation, and uncertainty-aware reasoning can improve stability compared with frame-by-frame predictions. A strong answer should explain when probabilistic modeling is worth the added complexity and how to validate its benefit.
+
+Advanced evaluation themes:
+- calibration error
+- robustness to shift
+- stress testing on hard slices
+- controlled ablations
+- reliability under deployment constraints
+
+Good advanced interview questions should push a candidate to:
+- justify a modeling choice
+- compare two approaches under realistic constraints
+- explain how to detect hidden failure modes
+- connect theoretical ideas to production engineering decisions
