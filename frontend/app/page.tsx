@@ -20,7 +20,7 @@ export default function HomePage() {
             <Link className="btn-primary" href="/interview/new">
               Start Interview
             </Link>
-            <a className="btn-secondary" href="http://127.0.0.1:8000/docs" target="_blank" rel="noreferrer">
+            <a className="btn-secondary" href="https://skillscreen-ai.onrender.com/docs" target="_blank" rel="noreferrer">
               API Docs
             </a>
           </div>
