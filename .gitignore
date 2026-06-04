@@ -29,7 +29,5 @@ backend/storage/*
 !backend/storage/.gitkeep
 backend/storage/*.db
 backend/storage/chroma/
-backend/knowledge_base/raw/*
-backend/knowledge_base/raw/*.pdf
 !backend/knowledge_base/raw/.gitkeep
-!backend/knowledge_base/raw/backend_engineering_foundations.txt
+
