@@ -1,12 +1,6 @@
 {
   "sources": [
     {
-      "filename": "backend_engineering_foundations.txt",
-      "role": "BACKEND_ENGINEER",
-      "tier": "core",
-      "display_name": "Backend Engineering Foundations"
-    },
-    {
       "filename": "machine_learning_for_absolute_beginners.pdf",
       "role": "AI_ML_ENGINEER",
       "tier": "foundation",
